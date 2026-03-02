@@ -57,17 +57,19 @@ User → Streamlit → FastAPI → ML Pipeline → Prediction
 ---
 
 ## 📁 Project Structure
+
 churn-ml-system/
 │
-├── README.md
-├── .gitignore
-│── churn_pipeline.pkl
-│── main.py
-│── requirements.txt
-│── streamlit_app.py
+├── README.md                  # Project documentation
+├── .gitignore                 # Git ignored files
+├── requirements.txt           # Project dependencies
 │
-├───fastAPI
-│       streamlit_fastapi.py
+├── churn_pipeline.pkl         # Trained ML pipeline (model + preprocessing)
+├── main.py                    # Core backend logic
+├── streamlit_app.py           # Streamlit frontend application
 │
-└───notebook
-        Churn_Modelling_notebook.ipynb
+├── fastAPI/
+│   └── streamlit_fastapi.py   # FastAPI backend integration
+│
+└── notebook/
+    └── Churn_Modelling_notebook.ipynb   # Model development & experimentation
