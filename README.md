@@ -4,11 +4,16 @@ An end-to-end Machine Learning system for predicting customer churn risk using X
 
 ---
 
-## 🔗 Live Demo
+## 🚀 Live Demo & Resources  
 
-👉 **Try the Streamlit App:**  
+▶️ **Demo Video:**  
+https://drive.google.com/file/d/1IddJW16FcX-vIubl2DmnPIcb2YRIAny1/view?usp=sharing  
 
+🌐 **Live Application:**  
+https://aadi-churn-modelling.streamlit.app/  
 
+🔗 **GitHub Repository:**  
+https://github.com/ADITYA9571/Churn-Modelling-
 ---
 
 ## 🚀 Project Overview
